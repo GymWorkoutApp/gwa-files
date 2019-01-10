@@ -1,0 +1,16 @@
+package: github.com/GymWorkoutApp/gwap-files
+import:
+- package: github.com/jinzhu/gorm
+  vcs: git
+  subpackages:
+  - tree/master/dialects/postgres
+- package: github.com/labstack/echo
+  vcs: git
+  subpackages:
+  - '...'
+- package: github.com/golang/crypto
+  vcs: git
+  subpackages:
+  - '...'
+- package: github.com/smartystreets/goconvey
+  vcs: git
